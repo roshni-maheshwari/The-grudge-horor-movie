@@ -161,7 +161,7 @@ ul {
 
 @keyframes video {
   0% {
-    width: 0;
+    width: 30%;
   }
   100% {
     width: 150%;
