@@ -155,13 +155,22 @@ ul {
   cursor: pointer;
 }
 
-.video {
+.bg-video{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
   animation: video 18s linear;
+}
+.video{
+    height: 100%;
+    width: 100%;
 }
 
 @keyframes video {
   0% {
-    width: 30%;
+    width: 0;
+    
   }
   100% {
     width: 150%;
